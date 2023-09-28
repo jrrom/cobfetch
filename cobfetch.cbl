@@ -40,7 +40,7 @@
                    02 pipe-line-shell    pic x(:BUFFER-SIZE:).
                    02 pipe-length-shell  pic 9(5).
                
-               01 green pic x(21) value "echo -ne '\033[32;1m'".
+               01 green pic x(30) value "echo -ne '\033[32;1m'".
                01 clear pic x(18) value "echo -ne '\033[0m'".
            
       *> ***************************************************************
