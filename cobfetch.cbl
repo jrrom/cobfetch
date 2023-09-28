@@ -54,7 +54,9 @@
            move pipe-run("echo $SHELL") to pipe-details-shell
 
            call "SYSTEM" using green
+
            display line-1
+
            display line-2 with no advancing
                display "  USER  " with no advancing
                display pipe-line-user(1 : pipe-length-user)
@@ -78,6 +80,7 @@
            display line-7
            
            display space
+
            call "SYSTEM" using clear
 
            stop run.
